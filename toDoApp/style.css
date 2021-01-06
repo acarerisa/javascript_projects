@@ -1,0 +1,28 @@
+body{
+  background-color: black;
+}
+.app-title{
+  color: lime;
+}
+#btnaddNewTask {
+    display:inline-block;
+    width:calc(1.5em + .75rem + 2px);
+    height:calc(1.5em + .75rem + 2px);
+    margin-left: 5px;
+    background:
+      linear-gradient(#fff,#fff),
+      linear-gradient(#fff,#fff),
+      #007bff;
+    background-position:center;
+    background-size: 50% 2px,2px 50%; /*thickness = 2px, length = 50% (25px)*/
+    background-repeat:no-repeat;
+  }
+  .delete-item:hover{
+      color: #fff;
+      cursor: pointer;
+      transform: scale(1.5);
+  }
+  .done{
+      text-decoration: line-through;
+      color: red;
+    }
